@@ -1,3 +1,11 @@
+/**
+ * Start from the leftmost element of arr[] and one by one compare x with each element of arr[]
+ *If x matches with an element, return the index.
+ *If x doesn’t match with any of elements, return -1.
+
+ *The time complexity of the above algorithm is O(n). 
+ */
+
 public class LinearSearch {
     public static int linearSearch(int[] arr, int key) {
         for (int i = 0; i < arr.length; i++) {
@@ -14,6 +22,6 @@ public class LinearSearch {
 
         int searchResult = linearSearch(arr1, key);
 
-        System.out.println(key+" is found at index: " + searchResult);
+        System.out.println(key + " is found at index: " + searchResult);
     }
 }
