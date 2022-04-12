@@ -1,3 +1,4 @@
+package SearchAlgorithms;
 // Simply put, the algorithm compares the key value with the middle element of the array; 
 // if they are unequal, the half in which the key cannot be part of is eliminated, 
 // and the search continues for the remaining half until it succeeds.
@@ -24,7 +25,6 @@ public class BinarySearch {
             return binarySearchRecursively(sortedArray, key, middle + 1, high);
         }
     }
-
     public static int binarySearchIteratively(int[] sortedArray, int key, int low, int high) {
         int index = -1;
 

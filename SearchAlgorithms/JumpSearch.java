@@ -1,3 +1,4 @@
+package SearchAlgorithms;
 // Jump Search Algorithm is a relatively new algorithm for searching an element in a sorted array.
 
 // The fundamental idea behind this searching technique is to search fewer number of elements compared to linear search algorithm 

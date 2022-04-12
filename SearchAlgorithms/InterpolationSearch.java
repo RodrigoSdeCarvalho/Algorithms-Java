@@ -1,3 +1,4 @@
+package SearchAlgorithms;
 public class InterpolationSearch {
     public static int interpolationSearch(int[] arr, int key) {
         int high = arr.length - 1;
